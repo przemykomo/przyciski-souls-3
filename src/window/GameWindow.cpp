@@ -1,6 +1,6 @@
 #include "GameWindow.hpp"
 
-const char* GameWindow::TITLE = "Window title";
+const char* GameWindow::TITLE = "Przyciski Souls 3";
 
 void GameWindow::run() {
     init();
