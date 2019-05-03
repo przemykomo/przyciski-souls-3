@@ -13,6 +13,8 @@ const char* Renderer::fragmentShaderSource =
 unsigned int Renderer::shaderProgram;
 unsigned int Renderer::VAO;
 
+glm::mat4 Renderer::trans = glm::mat4(1.0F);
+
 float Renderer::vertices[] = {
     // positions            texture coords
     0.5F, 0.5F, 0.0F,       1.0F, 1.0F,     // top right
@@ -34,10 +36,13 @@ void Renderer::init() {
 
     initShaders();
     initBuffers();
+    transform();
 }
 
 void Renderer::render(GLFWwindow* window) {
     glClear(GL_COLOR_BUFFER_BIT);
+
+    transformLoop();
 
     glUseProgram(shaderProgram);
     simpleTexture.Bind();
@@ -120,4 +125,19 @@ void Renderer::initBuffers() {
     glEnableVertexAttribArray(1);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+}
+
+void Renderer::transform() {
+    //trans = glm::translate(trans, glm::vec3(1.0F, 1.0F, 0.0F));
+    trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
+
+    unsigned int transformLoc = glGetUniformLocation(shaderProgram, "transform");
+    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+}
+
+void Renderer::transformLoop() {
+    trans = glm::rotate(trans, (float)glfwGetTime(), glm::vec3(0.0F, 0.0F, 1.0F));
+
+    unsigned int transformLoc = glGetUniformLocation(shaderProgram, "transform");
+    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
 }

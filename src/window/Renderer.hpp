@@ -7,6 +7,10 @@
 
 #include "elements/Texture.hpp"
 
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
 class Renderer {
     public:
         static const char* vertexShaderSource;
@@ -23,7 +27,10 @@ class Renderer {
         static void render(GLFWwindow* window);
 
     private:
+        static glm::mat4 trans;
+
         static void initShaders();
-        static void initTextures();
         static void initBuffers();
+        static void transform();
+        static void transformLoop();
 };
