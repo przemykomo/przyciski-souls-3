@@ -14,6 +14,12 @@ unsigned int Renderer::shaderProgram;
 unsigned int Renderer::VAO;
 
 glm::mat4 Renderer::trans = glm::mat4(1.0F);
+unsigned int Renderer::transformLoc;
+
+const float Renderer::bWIDTH = 0.2;
+const float Renderer::bHEIGHT = 0.1;
+float Renderer::buttonPosX = 0.0F;
+float Renderer::buttonPosY = 0.0F;
 
 float Renderer::vertices[] = {
     // positions            texture coords
@@ -128,16 +134,13 @@ void Renderer::initBuffers() {
 }
 
 void Renderer::transform() {
-    //trans = glm::translate(trans, glm::vec3(1.0F, 1.0F, 0.0F));
-    trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
-
-    unsigned int transformLoc = glGetUniformLocation(shaderProgram, "transform");
-    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+    transformLoc = glGetUniformLocation(shaderProgram, "transform");
 }
 
 void Renderer::transformLoop() {
-    trans = glm::rotate(trans, (float)glfwGetTime(), glm::vec3(0.0F, 0.0F, 1.0F));
+    trans = glm::mat4(1.0F);
+    trans = glm::translate(trans, glm::vec3(buttonPosX, buttonPosY, 0.0F));
+    trans = glm::scale(trans, glm::vec3(bWIDTH, bHEIGHT, 0));
 
-    unsigned int transformLoc = glGetUniformLocation(shaderProgram, "transform");
     glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
 }

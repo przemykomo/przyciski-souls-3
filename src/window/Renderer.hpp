@@ -13,6 +13,15 @@
 
 class Renderer {
     public:
+        static float buttonPosX;
+        static float buttonPosY;
+        static const float bWIDTH;
+        static const float bHEIGHT;
+
+        static void init();
+        static void render(GLFWwindow* window);
+
+    private:
         static const char* vertexShaderSource;
         static const char* fragmentShaderSource;
         static unsigned int shaderProgram;
@@ -23,11 +32,8 @@ class Renderer {
 
         static Texture simpleTexture;
 
-        static void init();
-        static void render(GLFWwindow* window);
-
-    private:
         static glm::mat4 trans;
+        static unsigned int transformLoc;
 
         static void initShaders();
         static void initBuffers();

@@ -7,14 +7,11 @@
 
 class GameWindow {
     public:
+        static const char* TITLE; // value is in .cpp file because of c++ standard
         static const int HEIGHT = 480;
         static const int WIDTH = 600;
-        static const char* TITLE; // value is in .cpp file because of c++ standard
 
         void run();
-
-        static void framebufferSizeCallback(GLFWwindow* win, int width, int height);
-
     private:
         GLFWwindow* window;
 
