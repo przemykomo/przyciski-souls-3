@@ -29,6 +29,7 @@ void GameWindow::init() {
     glViewport(0, 0, WIDTH, HEIGHT);
 
     glfwSetCursorPosCallback(window, InputHandler::processCursor);
+    glfwSetMouseButtonCallback(window, InputHandler::processMouseClick);
 }
 
 void GameWindow::loop() {

@@ -104,7 +104,7 @@ void Renderer::initShaders() {
 
     glUseProgram(shaderProgram);
     glUniform1i(unLocation, 0);
-    simpleTexture.Init("assets/textures/test.png");
+    simpleTexture.Init("assets/textures/button.png");
 
 }
 

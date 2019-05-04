@@ -1,5 +1,8 @@
 #include "InputHandler.hpp"
 
+double InputHandler::cursorX;
+double InputHandler::cursorY;
+
 void InputHandler::processInput(GLFWwindow* window) {
     if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
         glfwSetWindowShouldClose(window, true);
@@ -7,15 +10,18 @@ void InputHandler::processInput(GLFWwindow* window) {
 }
 
 void InputHandler::processCursor(GLFWwindow* window, double xPos, double yPos) {
-    xPos = xPos / GameWindow::WIDTH * 2 - 1;
-    yPos = yPos / GameWindow::HEIGHT * 2 - 1;
+    cursorX = xPos / GameWindow::WIDTH * 2 - 1;
+    cursorY = yPos / GameWindow::HEIGHT * 2 - 1;
+}
 
-    std::cout << "xPos: " << xPos << "\nyPos: " << yPos << '\n';
-
-    if(xPos < Renderer::buttonPosX + Renderer::bWIDTH / 2 &&
-        xPos > Renderer ::buttonPosX - Renderer::bWIDTH / 2 &&
-        yPos < Renderer::buttonPosY + Renderer::bHEIGHT / 2 &&
-        yPos > Renderer::buttonPosY - Renderer::bHEIGHT / 2) {
-            std::cout << "GUTE" << '\n';
-        }
+void InputHandler::processMouseClick(GLFWwindow* window, int button, int action, int mods) {
+    if(button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
+        if(cursorX < Renderer::buttonPosX + Renderer::bWIDTH / 2 &&
+            cursorX > Renderer::buttonPosX - Renderer::bWIDTH / 2 &&
+            cursorY < Renderer::buttonPosY + Renderer::bHEIGHT / 2 &&
+            cursorY > Renderer::buttonPosY - Renderer::bHEIGHT / 2) {
+                Renderer::buttonPosX = float(rand()) / float(RAND_MAX) * 1.8F - 0.9F;
+                Renderer::buttonPosY = float(rand()) / float(RAND_MAX) * 1.8F - 0.9F;
+            }
+    }
 }
