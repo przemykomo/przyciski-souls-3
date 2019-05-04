@@ -20,6 +20,7 @@ void InputHandler::processMouseClick(GLFWwindow* window, int button, int action,
             cursorX > Renderer::buttonPosX - Renderer::bWIDTH / 2 &&
             cursorY < Renderer::buttonPosY + Renderer::bHEIGHT / 2 &&
             cursorY > Renderer::buttonPosY - Renderer::bHEIGHT / 2) {
+                std::cout << "clicked" << '\n';
                 Renderer::buttonPosX = float(rand()) / float(RAND_MAX) * 1.8F - 0.9F;
                 Renderer::buttonPosY = float(rand()) / float(RAND_MAX) * 1.8F - 0.9F;
             }
