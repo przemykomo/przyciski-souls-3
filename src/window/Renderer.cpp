@@ -1,20 +1,16 @@
 #include "Renderer.hpp"
 
 #include "elements/Texture.hpp"
+#include <ft2build.h>
+#include FT_FREETYPE_H
 
-const char* Renderer::vertexShaderSource =
-    #include "shaders/vertexShader.vert"
-;
+std::map<GLchar, Character> Renderer::characters;
 
-const char* Renderer::fragmentShaderSource =
-    #include "shaders/fragmentShader.frag"
-;
+Shader* Renderer::mainShaderPtr;
 
-unsigned int Renderer::shaderProgram;
 unsigned int Renderer::VAO;
 
 glm::mat4 Renderer::trans = glm::mat4(1.0F);
-unsigned int Renderer::transformLoc;
 
 const float Renderer::bWIDTH = 0.2;
 const float Renderer::bHEIGHT = 0.1;
@@ -40,9 +36,9 @@ Texture Renderer::simpleTexture;
 void Renderer::init() {
     glClearColor(0.0F, 1.0F, 0.0F, 1.0F);
 
+    initFont();
     initShaders();
     initBuffers();
-    transform();
 }
 
 void Renderer::render(GLFWwindow* window) {
@@ -50,60 +46,66 @@ void Renderer::render(GLFWwindow* window) {
 
     transformLoop();
 
-    glUseProgram(shaderProgram);
+    mainShaderPtr->use();
     simpleTexture.Bind();
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 }
 
+void Renderer::cleanup() {
+    delete mainShaderPtr;
+}
+
+void Renderer::initFont() {
+    FT_Library ft;
+    if(FT_Init_FreeType(&ft)) {
+        std::cout << "ERROR::FREETYPE: Could not init FreeType Library!" << '\n';
+    }
+    FT_Face face;
+    if(FT_New_Face(ft, "assets/fonts/NationalPark-Regular.otf", 0, &face)) {
+        std::cout << "ERROR::FREETYPE: Failed to load font!" << '\n';
+    }
+    FT_Set_Pixel_Sizes(face, 0, 48);
+    glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
+
+    for(GLubyte c = 0; c < 128; c++) {
+        if(FT_Load_Char(face, c, FT_LOAD_RENDER)) {
+            std::cout << "ERROR::FREETYPE: Failed to load Glyph no. " << c << '\n';
+            continue;
+        }
+
+        GLuint textureID;
+        glGenTextures(1, &textureID);
+        glBindTexture(GL_TEXTURE_2D, textureID);
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RED,
+            face->glyph->bitmap.width, face->glyph->bitmap.rows,
+            0, GL_RED, GL_UNSIGNED_BYTE,
+            face->glyph->bitmap.buffer
+        );
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+        Character character = {
+            textureID,
+            glm::ivec2(face->glyph->bitmap.width, face->glyph->bitmap.rows),
+            glm::ivec2(face->glyph->bitmap_left, face->glyph->bitmap_top),
+            face->glyph->advance.x
+        };
+        characters.insert(std::pair<GLchar, Character>(c, character));
+
+    }
+    FT_Done_Face(face);
+    FT_Done_FreeType(ft);
+}
+
 void Renderer::initShaders() {
-    // Compile vertex shader
-    unsigned int vertexShader;
-    vertexShader = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
-    glCompileShader(vertexShader);
+    mainShaderPtr = new Shader("assets/shaders/vertexShader.glsl", "assets/shaders/fragmentShader.glsl");
 
-    // Detect shader compilation error
-    int success;
-    char infoLog[512];
-    glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
-    if(!success) {
-        glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << '\n';
-    }
+    mainShaderPtr->use();
+    mainShaderPtr->setInt("u_Texture", 0);
 
-    // Compile fragment shader
-    unsigned int fragmentShader;
-    fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
-    glCompileShader(fragmentShader);
-
-    // Detect shader compilation error
-    glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
-    if(!success) {
-        glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << '\n';
-    }
-
-    shaderProgram = glCreateProgram();
-    glAttachShader(shaderProgram, vertexShader);
-    glAttachShader(shaderProgram, fragmentShader);
-    glLinkProgram(shaderProgram);
-
-    // Detect shader program error
-    glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
-    if(!success) {
-        glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::PROGRAM::LINK_FAILED\n" << infoLog << '\n';
-    }
-
-    glDeleteShader(vertexShader);
-    glDeleteShader(fragmentShader);
-
-    unsigned int unLocation = glGetUniformLocation(shaderProgram, "u_Texture");
-
-    glUseProgram(shaderProgram);
-    glUniform1i(unLocation, 0);
     simpleTexture.Init("assets/textures/button.png");
 
 }
@@ -133,14 +135,10 @@ void Renderer::initBuffers() {
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
 
-void Renderer::transform() {
-    transformLoc = glGetUniformLocation(shaderProgram, "transform");
-}
-
 void Renderer::transformLoop() {
     trans = glm::mat4(1.0F);
     trans = glm::translate(trans, glm::vec3(buttonPosX, buttonPosY, 0.0F));
     trans = glm::scale(trans, glm::vec3(bWIDTH, bHEIGHT, 0));
 
-    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+    mainShaderPtr->setMatrix4("transform", glm::value_ptr(trans));
 }

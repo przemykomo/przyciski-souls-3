@@ -2,14 +2,24 @@
 
 #define GL_GLEXT_PROTOTYPES
 #include <GLFW/glfw3.h>
-
 #include <iostream>
+#include <map>
+#include <ft2build.h>
+#include FT_FREETYPE_H
 
 #include "elements/Texture.hpp"
+#include "shaders/Shader.hpp"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+
+struct Character {
+    GLuint TextureID;
+    glm::ivec2 Size;
+    glm::ivec2 Bearing;
+    GLuint Advance;
+};
 
 class Renderer {
     public:
@@ -20,11 +30,13 @@ class Renderer {
 
         static void init();
         static void render(GLFWwindow* window);
+        static void cleanup();
 
     private:
-        static const char* vertexShaderSource;
-        static const char* fragmentShaderSource;
-        static unsigned int shaderProgram;
+        static std::map<GLchar, Character> characters;
+        
+        static Shader* mainShaderPtr;
+
         static unsigned int VAO;
 
         static float vertices[];
@@ -33,10 +45,9 @@ class Renderer {
         static Texture simpleTexture;
 
         static glm::mat4 trans;
-        static unsigned int transformLoc;
 
+        static void initFont();
         static void initShaders();
         static void initBuffers();
-        static void transform();
         static void transformLoop();
 };

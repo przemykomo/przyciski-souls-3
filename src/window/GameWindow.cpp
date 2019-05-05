@@ -43,5 +43,6 @@ void GameWindow::loop() {
 }
 
 void GameWindow::cleanup() {
+    Renderer::cleanup();
     glfwTerminate();
 }
