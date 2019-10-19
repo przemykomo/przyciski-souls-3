@@ -10,6 +10,7 @@
 
 class InputHandler {
     public:
+        static bool hasPlayerDied();
         static void processInput(GLFWwindow* window);
         static void processCursor(GLFWwindow* window, double xPos, double yPos);
         static void processMouseClick(GLFWwindow* window, int button, int action, int mods);

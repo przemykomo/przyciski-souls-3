@@ -41,6 +41,7 @@ class Renderer {
         static unsigned int indices[];
 
         static Texture simpleTexture;
+        static Texture youDiedTexture;
 
         static glm::mat4 trans;
 

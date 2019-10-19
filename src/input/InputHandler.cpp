@@ -6,6 +6,10 @@ bool InputHandler::hasDied = false;
 double InputHandler::cursorX;
 double InputHandler::cursorY;
 
+bool InputHandler::hasPlayerDied() {
+    return hasDied;
+}
+
 void InputHandler::processInput(GLFWwindow* window) {
     if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
         glfwSetWindowShouldClose(window, true);
@@ -19,6 +23,8 @@ void InputHandler::processCursor(GLFWwindow* window, double xPos, double yPos) {
 
 void InputHandler::processMouseClick(GLFWwindow* window, int button, int action, int mods) {
     if(button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
+        std::cout << "mouse click" << '\n';
+        std::cout << Renderer::buttonPosX << ' ' << Renderer::buttonPosY << '\n';
         if(hasDied) { // restart
             hasDied = false;
             timerRecord = std::numeric_limits<double>::max();

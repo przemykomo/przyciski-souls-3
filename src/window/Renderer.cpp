@@ -2,6 +2,8 @@
 
 #include "elements/Texture.hpp"
 
+#include "input/InputHandler.hpp"
+
 std::map<GLchar, Character> Renderer::characters;
 
 Shader* Renderer::mainShaderPtr;
@@ -30,6 +32,7 @@ unsigned int Renderer::indices[] = {
 };
 
 Texture Renderer::simpleTexture;
+Texture Renderer::youDiedTexture;
 
 void Renderer::init() {
     glClearColor(0.0F, 1.0F, 0.0F, 1.0F);
@@ -44,7 +47,11 @@ void Renderer::render(GLFWwindow* window) {
     transformLoop();
 
     mainShaderPtr->use();
-    simpleTexture.Bind();
+    if(!InputHandler::hasPlayerDied()) {
+        simpleTexture.Bind();
+    } else {
+        youDiedTexture.Bind();
+    }
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 }
@@ -60,7 +67,7 @@ void Renderer::initShaders() {
     mainShaderPtr->setInt("u_Texture", 0);
 
     simpleTexture.Init("assets/textures/button.png");
-
+    youDiedTexture.Init("assets/textures/youdied.png");
 }
 
 void Renderer::initBuffers() {
@@ -89,9 +96,15 @@ void Renderer::initBuffers() {
 }
 
 void Renderer::transformLoop() {
-    trans = glm::mat4(1.0F);
-    trans = glm::translate(trans, glm::vec3(buttonPosX, buttonPosY, 0.0F));
-    trans = glm::scale(trans, glm::vec3(bWIDTH, bHEIGHT, 0));
+    if(!InputHandler::hasPlayerDied()) {
+        trans = glm::mat4(1.0F);
+        trans = glm::translate(trans, glm::vec3(buttonPosX, buttonPosY, 0.0F));
+        trans = glm::scale(trans, glm::vec3(bWIDTH, bHEIGHT, 0));
 
-    mainShaderPtr->setMatrix4("transform", glm::value_ptr(trans));
+        mainShaderPtr->setMatrix4("transform", glm::value_ptr(trans));
+    } else {
+        trans = glm::mat4(1.0F);
+        trans = glm::scale(trans, glm::vec3(2.0F));
+        mainShaderPtr->setMatrix4("transform", glm::value_ptr(trans));
+    }
 }
