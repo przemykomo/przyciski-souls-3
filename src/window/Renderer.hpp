@@ -4,8 +4,6 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 #include <map>
-#include <ft2build.h>
-#include FT_FREETYPE_H
 
 #include "elements/Texture.hpp"
 #include "shaders/Shader.hpp"
@@ -46,7 +44,6 @@ class Renderer {
 
         static glm::mat4 trans;
 
-        static void initFont();
         static void initShaders();
         static void initBuffers();
         static void transformLoop();
