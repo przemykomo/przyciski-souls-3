@@ -1,0 +1,1081 @@
+[
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/elements/Texture.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/elements/Texture.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/elements/Texture.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/input/InputHandler.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/input/InputHandler.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/input/InputHandler.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/lib/stb_image/stb_image.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/lib/stb_image/stb_image.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/lib/stb_image/stb_image.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/main.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/main.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/main.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/shaders/Shader.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/shaders/Shader.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/shaders/Shader.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/window/GameWindow.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/window/GameWindow.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/window/GameWindow.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../src -I../glfw/include  -g   -o CMakeFiles/game.dir/src/window/Renderer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/src/window/Renderer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/src/window/Renderer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++  -Dglm_shared_EXPORTS -I../glm -I../glm/glm/..  -g -fPIC   -O2 -Wno-long-long -o glm/glm/CMakeFiles/glm_shared.dir/detail/glm.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/glm/detail/glm.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/glm/detail/glm.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm -I../glm/glm/..  -g   -O2 -Wno-long-long -o glm/glm/CMakeFiles/glm_static.dir/detail/glm.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/glm/detail/glm.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/glm/detail/glm.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/bug/CMakeFiles/test-bug_ms_vec_static.dir/bug_ms_vec_static.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/bug/bug_ms_vec_static.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/bug/bug_ms_vec_static.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/core_type_mat3x3.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat3x3.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat3x3.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat3x2.dir/core_type_mat3x2.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat3x2.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat3x2.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_ctor.dir/core_type_ctor.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_ctor.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_ctor.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_pure.dir/core_force_pure.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_pure.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_pure.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat2x3.dir/core_type_mat2x3.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat2x3.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat2x3.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_trigonometric.dir/core_func_trigonometric.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_trigonometric.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_trigonometric.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_length.dir/core_type_length.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_length.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_length.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_aligned_gentypes.dir/core_force_aligned_gentypes.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_aligned_gentypes.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_aligned_gentypes.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/core_type_mat4x2.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat4x2.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat4x2.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat2x4.dir/core_type_mat2x4.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat2x4.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat2x4.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_inline.dir/core_force_inline.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_inline.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_inline.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/core_type_mat3x4.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat3x4.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat3x4.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/core_type_mat4x3.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat4x3.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat4x3.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/core_force_unrestricted_gentype.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_unrestricted_gentype.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_unrestricted_gentype.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_cpp_defaulted_ctor.dir/core_cpp_defaulted_ctor.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_cpp_defaulted_ctor.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_cpp_defaulted_ctor.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_aligned.dir/core_type_aligned.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_aligned.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_aligned.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_explicit_ctor.dir/core_force_explicit_ctor.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_explicit_ctor.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_explicit_ctor.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_setup_platform_unknown.dir/core_setup_platform_unknown.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_platform_unknown.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_platform_unknown.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat2x2.dir/core_type_mat2x2.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat2x2.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat2x2.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_setup_force_cxx98.dir/core_setup_force_cxx98.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_force_cxx98.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_force_cxx98.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/core_force_xyzw_only.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_xyzw_only.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_xyzw_only.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_integer.dir/core_func_integer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_vec1.dir/core_type_vec1.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec1.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec1.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_swizzle.dir/core_func_swizzle.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_swizzle.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_swizzle.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_setup_force_size_t_length.dir/core_setup_force_size_t_length.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_force_size_t_length.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_force_size_t_length.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_int.dir/core_type_int.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_int.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_int.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_vec2.dir/core_type_vec2.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec2.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec2.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_vec4.dir/core_type_vec4.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec4.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec4.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_common.dir/core_func_common.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_common.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_common.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_setup_precision.dir/core_setup_precision.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_precision.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_precision.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_exponential.dir/core_func_exponential.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_exponential.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_exponential.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_geometric.dir/core_func_geometric.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_geometric.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_geometric.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_noise.dir/core_func_noise.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_noise.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_noise.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/core_func_integer_bit_count.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer_bit_count.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer_bit_count.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/core_func_integer_find_lsb.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer_find_lsb.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer_find_lsb.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_matrix.dir/core_func_matrix.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_matrix.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_matrix.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_force_ctor_init.dir/core_force_ctor_init.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_ctor_init.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_force_ctor_init.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/core_type_mat4x4.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat4x4.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_mat4x4.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/core_func_integer_find_msb.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer_find_msb.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_integer_find_msb.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_vec3.dir/core_type_vec3.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec3.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_vec3.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_packing.dir/core_func_packing.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_packing.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_packing.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_func_vector_relational.dir/core_func_vector_relational.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_vector_relational.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_func_vector_relational.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_cpp_constexpr.dir/core_cpp_constexpr.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_cpp_constexpr.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_cpp_constexpr.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_type_cast.dir/core_type_cast.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_cast.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_type_cast.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/core/CMakeFiles/test-core_setup_message.dir/core_setup_message.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_message.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/core/core_setup_message.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/ext_vector_ulp.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_ulp.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_ulp.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/ext_vector_relational.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_relational.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_relational.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_trigonometric.dir/ext_quaternion_trigonometric.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_trigonometric.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_trigonometric.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vec1.dir/ext_vec1.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vec1.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vec1.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_relational.dir/ext_quaternion_relational.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_relational.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_relational.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_transform.dir/ext_quaternion_transform.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_transform.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_transform.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_matrix_transform.dir/ext_matrix_transform.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_matrix_transform.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_matrix_transform.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_common.dir/ext_scalar_common.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_common.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_common.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_common.dir/ext_quaternion_common.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_common.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_common.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_type.dir/ext_quaternion_type.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_type.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_type.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_matrix_relational.dir/ext_matrix_relational.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_matrix_relational.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_matrix_relational.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_int_sized.dir/ext_scalar_int_sized.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_int_sized.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_int_sized.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_matrix_common.dir/ext_matrix_common.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_matrix_common.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_matrix_common.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_exponential.dir/ext_quaternion_exponential.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_exponential.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_exponential.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_integer_sized.dir/ext_vector_integer_sized.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_integer_sized.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_integer_sized.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_constants.dir/ext_scalar_constants.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_constants.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_constants.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_uint_sized.dir/ext_scalar_uint_sized.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_uint_sized.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_uint_sized.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_common.dir/ext_vector_common.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_common.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_common.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_integer.dir/ext_scalar_integer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_integer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_integer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_ulp.dir/ext_scalar_ulp.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_ulp.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_ulp.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_scalar_relational.dir/ext_scalar_relational.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_relational.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_scalar_relational.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/ext_vector_integer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_integer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_integer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_bool1.dir/ext_vector_bool1.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_bool1.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_bool1.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_quaternion_geometric.dir/ext_quaternion_geometric.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_geometric.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_quaternion_geometric.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/ext_vector_iec559.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_iec559.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/ext/ext_vector_iec559.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_packing.dir/gtc_packing.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_packing.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_packing.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_matrix_access.dir/gtc_matrix_access.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_access.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_access.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_matrix_transform.dir/gtc_matrix_transform.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_transform.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_transform.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_type_ptr.dir/gtc_type_ptr.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_type_ptr.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_type_ptr.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_matrix_integer.dir/gtc_matrix_integer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_integer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_integer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/gtc_color_space.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_color_space.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_color_space.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/gtc_bitfield.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_bitfield.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_bitfield.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_integer.dir/gtc_integer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_integer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_integer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_matrix_inverse.dir/gtc_matrix_inverse.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_inverse.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_matrix_inverse.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_epsilon.dir/gtc_epsilon.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_epsilon.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_epsilon.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_constants.dir/gtc_constants.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_constants.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_constants.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_type_precision.dir/gtc_type_precision.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_type_precision.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_type_precision.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_quaternion.dir/gtc_quaternion.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_quaternion.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_quaternion.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_random.dir/gtc_random.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_random.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_random.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_round.dir/gtc_round.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_round.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_round.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_ulp.dir/gtc_ulp.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_ulp.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_ulp.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_type_aligned.dir/gtc_type_aligned.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_type_aligned.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_type_aligned.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_vec1.dir/gtc_vec1.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_vec1.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_vec1.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_noise.dir/gtc_noise.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_noise.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_noise.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtc/CMakeFiles/test-gtc_reciprocal.dir/gtc_reciprocal.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_reciprocal.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtc/gtc_reciprocal.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_vector_query.dir/gtx_vector_query.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_vector_query.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_vector_query.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_vec_swizzle.dir/gtx_vec_swizzle.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_vec_swizzle.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_vec_swizzle.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_type_trait.dir/gtx_type_trait.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_type_trait.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_type_trait.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_vector_angle.dir/gtx_vector_angle.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_vector_angle.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_vector_angle.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_type_aligned.dir/gtx_type_aligned.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_type_aligned.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_type_aligned.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_spline.dir/gtx_spline.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_spline.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_spline.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_scalar_relational.dir/gtx_scalar_relational.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_scalar_relational.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_scalar_relational.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_scalar_multiplication.dir/gtx_scalar_multiplication.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_scalar_multiplication.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_scalar_multiplication.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_wrap.dir/gtx_wrap.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_wrap.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_wrap.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_integer.dir/gtx_integer.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_integer.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_integer.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/gtx_color_space.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_color_space.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_color_space.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_optimum_pow.dir/gtx_optimum_pow.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_optimum_pow.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_optimum_pow.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_functions.dir/gtx_functions.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_functions.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_functions.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_projection.dir/gtx_projection.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_projection.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_projection.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_fast_trigonometry.dir/gtx_fast_trigonometry.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_fast_trigonometry.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_fast_trigonometry.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_string_cast.dir/gtx_string_cast.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_string_cast.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_string_cast.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/gtx_color_encoding.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_color_encoding.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_color_encoding.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_decompose.dir/gtx_matrix_decompose.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_decompose.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_decompose.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_exterior_product.dir/gtx_exterior_product.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_exterior_product.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_exterior_product.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_closest_point.dir/gtx_closest_point.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_closest_point.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_closest_point.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_normal.dir/gtx_normal.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_normal.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_normal.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/gtx_color_space_YCoCg.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_color_space_YCoCg.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_color_space_YCoCg.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_euler_angle.dir/gtx_euler_angle.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_euler_angle.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_euler_angle.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_polar_coordinates.dir/gtx_polar_coordinates.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_polar_coordinates.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_polar_coordinates.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_common.dir/gtx_common.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_common.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_common.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_perpendicular.dir/gtx_perpendicular.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_perpendicular.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_perpendicular.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_easing.dir/gtx_easing.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_easing.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_easing.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_fast_square_root.dir/gtx_fast_square_root.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_fast_square_root.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_fast_square_root.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_intersect.dir/gtx_intersect.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_intersect.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_intersect.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_number_precision.dir/gtx_number_precision.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_number_precision.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_number_precision.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_gradient_paint.dir/gtx_gradient_paint.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_gradient_paint.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_gradient_paint.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_interpolation.dir/gtx_matrix_interpolation.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_interpolation.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_interpolation.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx.dir/gtx.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/gtx_matrix_query.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_query.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_query.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_associated_min_max.dir/gtx_associated_min_max.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_associated_min_max.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_associated_min_max.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_norm.dir/gtx_norm.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_norm.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_norm.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_compatibility.dir/gtx_compatibility.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_compatibility.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_compatibility.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_fast_exponential.dir/gtx_fast_exponential.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_fast_exponential.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_fast_exponential.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_extend.dir/gtx_extend.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_extend.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_extend.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_log_base.dir/gtx_log_base.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_log_base.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_log_base.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_extended_min_max.dir/gtx_extended_min_max.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_extended_min_max.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_extended_min_max.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_factorisation.dir/gtx_matrix_factorisation.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_factorisation.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_factorisation.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_orthonormalize.dir/gtx_orthonormalize.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_orthonormalize.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_orthonormalize.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_io.dir/gtx_io.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_io.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_io.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_texture.dir/gtx_texture.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_texture.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_texture.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_handed_coordinate_space.dir/gtx_handed_coordinate_space.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_handed_coordinate_space.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_handed_coordinate_space.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_rotate_normalized_axis.dir/gtx_rotate_normalized_axis.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_rotate_normalized_axis.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_rotate_normalized_axis.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_component_wise.dir/gtx_component_wise.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_component_wise.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_component_wise.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_load.dir/gtx_load.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_load.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_load.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_operation.dir/gtx_matrix_operation.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_operation.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_operation.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_cross_product.dir/gtx_matrix_cross_product.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_cross_product.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_cross_product.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/gtx_matrix_transform_2d.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_transform_2d.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_transform_2d.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_matrix_major_storage.dir/gtx_matrix_major_storage.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_major_storage.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_matrix_major_storage.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_normalize_dot.dir/gtx_normalize_dot.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_normalize_dot.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_normalize_dot.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_dual_quaternion.dir/gtx_dual_quaternion.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_dual_quaternion.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_dual_quaternion.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_range.dir/gtx_range.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_range.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_range.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_quaternion.dir/gtx_quaternion.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_quaternion.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_quaternion.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/gtx/CMakeFiles/test-gtx_rotate_vector.dir/gtx_rotate_vector.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_rotate_vector.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/gtx/gtx_rotate_vector.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/perf/CMakeFiles/test-perf_matrix_transpose.dir/perf_matrix_transpose.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_transpose.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_transpose.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/perf/CMakeFiles/test-perf_matrix_mul_vector.dir/perf_matrix_mul_vector.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_mul_vector.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_mul_vector.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/perf/CMakeFiles/test-perf_matrix_mul.dir/perf_matrix_mul.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_mul.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_mul.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/perf/CMakeFiles/test-perf_matrix_div.dir/perf_matrix_div.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_div.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_div.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/perf/CMakeFiles/test-perf_matrix_inverse.dir/perf_matrix_inverse.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_inverse.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_matrix_inverse.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/c++   -I../glm  -g   -O2 -Wno-long-long -o glm/test/perf/CMakeFiles/test-perf_vector_mul_matrix.dir/perf_vector_mul_matrix.cpp.o -c /home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_vector_mul_matrix.cpp",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glm/test/perf/perf_vector_mul_matrix.cpp"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -Wdeclaration-after-statement -o glfw/src/CMakeFiles/glfw.dir/context.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/context.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/context.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -Wdeclaration-after-statement -o glfw/src/CMakeFiles/glfw.dir/init.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/init.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/init.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -Wdeclaration-after-statement -o glfw/src/CMakeFiles/glfw.dir/input.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/input.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/input.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -Wdeclaration-after-statement -o glfw/src/CMakeFiles/glfw.dir/monitor.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/monitor.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/monitor.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -Wdeclaration-after-statement -o glfw/src/CMakeFiles/glfw.dir/vulkan.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/vulkan.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/vulkan.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -Wdeclaration-after-statement -o glfw/src/CMakeFiles/glfw.dir/window.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/window.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/window.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/x11_init.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/x11_init.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/x11_init.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/x11_monitor.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/x11_monitor.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/x11_window.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/x11_window.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/x11_window.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/xkb_unicode.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/xkb_unicode.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/posix_time.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/posix_time.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/posix_time.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/posix_thread.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/posix_thread.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/glx_context.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/glx_context.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/glx_context.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/egl_context.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/egl_context.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/egl_context.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/osmesa_context.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/osmesa_context.c"
+},
+
+{
+  "directory": "/home/lukasz/projects/cxx/przyciski-souls-3/build",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I../glfw/include -I../glfw/src -Iglfw/src  -g -fPIC   -Wall -fvisibility=hidden -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o   -c /home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/linux_joystick.c",
+  "file": "/home/lukasz/projects/cxx/przyciski-souls-3/glfw/src/linux_joystick.c"
+}
+]
