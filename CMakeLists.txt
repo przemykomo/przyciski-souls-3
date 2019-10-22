@@ -10,7 +10,9 @@ file(GLOB_RECURSE SRC ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 add_executable(game ${SRC})
 target_include_directories(game PUBLIC
-    src    
+    src
+    glfw/include
+    glm
 )
 
 target_link_libraries(game
