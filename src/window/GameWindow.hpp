@@ -1,5 +1,6 @@
 #pragma once
 #include <stdexcept>
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include "input/InputHandler.hpp"
