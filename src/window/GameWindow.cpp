@@ -25,6 +25,8 @@ void GameWindow::init() {
     }
 
     glfwMakeContextCurrent(window);
+    
+    gladLoadGLLoader((GLADloadproc) glfwGetProcAddress);
 
     glViewport(0, 0, WIDTH, HEIGHT);
 
