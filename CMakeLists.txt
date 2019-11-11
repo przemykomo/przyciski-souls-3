@@ -20,4 +20,5 @@ target_link_libraries(game
     glm_shared
     glfw
     OpenGL::GL
+    ${CMAKE_DL_LIBS}
 )
